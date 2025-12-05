@@ -1,0 +1,20 @@
+[
+    {
+        "type": "sms",
+        "text": "ผู้บริหารธ. ออมสินไลน์เชิญชวนกู้เงินหลักหมื่นถึงหลักแสน ปลอดภัย 100%",
+        "isDanger": true,
+        "timestamp": "05/12/2025 18:26:03"
+    },
+    {
+        "type": "url",
+        "text": "perfectsolutionofall.net/wp-content/themes/twentyten/wiresource/",
+        "isDanger": true,
+        "timestamp": "05/12/2025 18:24:24"
+    },
+    {
+        "type": "url",
+        "text": "www.google.com",
+        "isDanger": false,
+        "timestamp": "05/12/2025 18:23:57"
+    }
+]
