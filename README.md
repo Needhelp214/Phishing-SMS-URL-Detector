@@ -1,21 +1,21 @@
-#Terminal (CMD) ในโฟลเดอร์ URL 
+# Cyber Scanner AI
+Application สำหรับตรวจจับ Phishing URL และ SMS Spam ภาษาไทยด้วย Deep Learning (Hybrid LSTM + WangchanBERTa)
 
- 1. สร้าง Environment
-    
-python -m venv venv
+# Prerequisites
+- Python 3.10 หรือใหม่กว่า
+- Windows 10/11 (สำหรับไฟล์ .exe)
 
-2. เปิดใช้งาน (Windows)
-   
-venv\Scripts\activate
+# Terminal (CMD) ในโฟลเดอร์ URL 
+# Environment Setup
+ 1. python -m venv venv
+ 2.venv\Scripts\activate
 
- 3. ติดตั้ง Library ที่จำเป็น
-    
+# ติดตั้ง Dependencies
+# ติดตั้ง Library ตามเวอร์ชันที่ระบุเพื่อความเสถียร (TensorFlow 2.16.1 + Keras 3.3.3)
 pip install flask pywebview numpy pandas scikit-learn
-
 pip install tensorflow==2.16.1 keras==3.3.3
-
 pip install torch transformers
+pip install pyinstaller
 
- 4. เมื่อติดตั้งทุกอย่างครบแล้ว สามารถเปิดใช้งานได้ทันทีด้วยคำสั่ง
-    
+# Development
 python run_app.py
