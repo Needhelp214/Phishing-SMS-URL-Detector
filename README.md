@@ -13,8 +13,11 @@ Application สำหรับตรวจจับ Phishing URL และ SMS S
 # ติดตั้ง Dependencies
 # ติดตั้ง Library ตามเวอร์ชันที่ระบุเพื่อความเสถียร (TensorFlow 2.16.1 + Keras 3.3.3)
 pip install flask pywebview numpy pandas scikit-learn
+
 pip install tensorflow==2.16.1 keras==3.3.3
+
 pip install torch transformers
+
 pip install pyinstaller
 
 # Development
